@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ 
+</head>
+<body>
+    
+    <div style="display: flex; justify-content: center;">
+    <form action="/register" method="post">
+        <h1>Insert student</h1>
+        <label for="fname">Student name:</label><br>
+        <input type="text" id="sname" name="sname" ><br><br>
+
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" ><br><br>
+
+        <label for="email">Email</label><br>
+        <input type="text" id="email" name="email" ><br><br>
+
+        <label for="phone">Enter Phone</label><br>
+        <input type="number" id="phone" name="phone" ><br><br>
+
+        <label for="gender">Enter gender</label><br>
+        <input type="radio" name="gender" value="male" checked> Male
+        <br>
+        <input type="radio" name="gender" value="female"> Female<br><br>
+        <input type="radio" name="gender" value="other"> Other<br><br>
+
+        <label for="dob">Enter dob</label><br>
+        <input type="text" id="dob" name="dob" ><br><br>
+
+        <label for="address">Enter address</label><br>
+        <input type="text" id="address" name="address" ><br><br>
+
+        <label for="state">Enter state</label><br>
+        <input type="text" id="state" name="state" ><br><br>
+
+        <label for="country">Enter country</label><br>
+        <input type="text" id="country" name="country" ><br><br>
+
+        <label for="pincode">Enter pincode</label><br>
+        <input type="text" id="pincode" name="pincode" ><br><br>
+
+        <input type="submit" value="Submit">
+      </form> 
+    </div>
+      
+</body>
+</html>
+
+<!-- 
+select * FROM student 
+INNER JOIN courses ON student.courseID = courses.courseID; -->
+
+
+
+
