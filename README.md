@@ -8,7 +8,7 @@
 7> add dummy data to student department by running query = INSERT INTO `student_department`(`student_id`, `department_id`) VALUES (1,1);
 8> add dummy data to courses = INSERT INTO `courses`( `courseName`) VALUES ('accounts','node','math','java' );
               
-              IF INCASE  ABOVE POINTS NOT WORKED I HAD UPDATED MY DATABASE CODE  IN GIT REPO ABOVE 
+              IF INCASE  ABOVE POINTS NOT WORKED I HAD UPDATED MY DATABASE AS (practice2.sql) CODE  IN GIT REPO ABOVE 
  
 9> TESTING 
   1> click on display_st_info button and enter name = Tejinder 
