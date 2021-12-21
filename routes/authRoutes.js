@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 const {
     connection
-} = require('../database/db');
+} = require('../models/db');
 
 const StudentInfo = require('../controllers/studentController');
 const mainController = require('../controllers/mainController');
